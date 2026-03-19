@@ -1,4 +1,5 @@
 🚚 Smart Delivery Fraud Detection System
+
 📌 Problem Statement
 
 Delivery platforms are facing large-scale fraud due to fake GPS locations and coordinated fake delivery partners. These attacks drain financial resources and make the system unreliable.
@@ -20,7 +21,7 @@ Lack of strong fraud detection mechanisms
 
 💡 Solution Overview
 
-We propose an AI-powered fraud detection system that:
+Our System propose an AI-powered fraud detection system that:
 
 Detects fake GPS activity
 
