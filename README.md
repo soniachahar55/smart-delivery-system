@@ -1,4 +1,4 @@
-##🚚 Smart Delivery Fraud Detection System
+🚚 Smart Delivery Fraud Detection System
 
 📌 Problem Statement
 
@@ -8,15 +8,12 @@ Delivery platforms are facing large-scale fraud due to fake GPS locations and co
 Primary Users:
 
 Delivery Partners (honest workers)
-
 Platform Admins (monitor and control fraud)
 
 Pain Points:
 
 Fake users exploit payout systems
-
 Honest users risk being wrongly flagged
-
 Lack of strong fraud detection mechanisms
 
 💡 Solution Overview
