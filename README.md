@@ -1,5 +1,7 @@
 # 🚚 Smart Delivery Fraud Detection System
 
+> 🚀 An AI-powered system to detect GPS spoofing and prevent large-scale delivery fraud in real time.
+
 ---
 
 ## 📌 Problem Statement
@@ -44,6 +46,11 @@ Our system uses a combination of:
 - Repeated suspicious activity → increases risk score  
 - Similar behavior across multiple users → potential fraud ring  
 
+### 🧠 Advanced Intelligence Layer
+- Learns normal delivery patterns from historical data  
+- Continuously updates risk scoring  
+- Detects both individual anomalies and coordinated fraud  
+
 ---
 
 ## ⚙️ Technical Architecture
@@ -55,7 +62,25 @@ Our system uses a combination of:
 - **AI Layer**: Performs fraud detection and scoring  
 
 ### Workflow:
-User → GPS Data → Backend → AI Model → Risk Score → Action
+User → GPS Data → Backend → AI Model → Risk Score → Action  
+
+---
+
+## 📊 System Flow Diagram
+User Device
+↓
+GPS Data Sent
+↓
+Backend Server
+↓
+AI Fraud Detection Layer
+↓
+Risk Score Generated
+↓
+Decision Engine
+↓
+✔ Allow / ⚠ Flag / 🚫 Restrict
+
 
 ---
 
@@ -64,14 +89,14 @@ User → GPS Data → Backend → AI Model → Risk Score → Action
 ### 🛡️ GPS Spoofing Detection
 - Detect unrealistic speed (e.g., traveling kilometers in seconds)  
 - Identify sudden coordinate jumps  
-- Cross-check GPS data with network/location signals  
+- Cross-check GPS with network/location signals  
 
 ---
 
 ### 🕵️ Fraud Ring Detection
-- Detect multiple users with similar behavioral patterns  
-- Identify clusters with same location and timing activity  
-- Use clustering logic to uncover coordinated fraud groups  
+- Detect users with similar behavior patterns  
+- Identify clusters with same location & timing  
+- Detect coordinated fraud groups  
 
 ---
 
@@ -89,16 +114,16 @@ Each user is assigned a dynamic risk score based on:
 
 ### ⚖️ Fairness Mechanism
 - No instant bans  
-- Users are flagged before action  
-- Actions taken only after repeated suspicious behavior  
-- Manual review for edge cases to protect genuine users  
+- Users are flagged first  
+- Action only after repeated suspicious behavior  
+- Manual review to protect genuine users  
 
 ---
 
 ## 🔮 Future Scope
 - Real-time fraud alerts  
 - Integration with payment systems  
-- More advanced machine learning models  
+- Advanced ML models  
 
 ---
 
